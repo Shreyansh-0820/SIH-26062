@@ -1,6 +1,8 @@
-# POLAR-X Expedition Command
+# VYNTARA
 
-POLAR-X is a futuristic Antarctic expedition command-center platform for monitoring missions, cargo, inventory, personnel, assets, weather, alerts, and emergency operations from one interface.
+## Integrated Expedition Logistics and Asset Management System
+
+VYNTARA is a futuristic Antarctic expedition command-center platform for monitoring missions, cargo, inventory, personnel, assets, weather, alerts, and emergency operations from one interface.
 
 The project is currently powered by realistic interconnected mock data and is designed as a polished frontend prototype for live demonstrations and future backend integration.
 
@@ -14,14 +16,14 @@ The project is currently powered by realistic interconnected mock data and is de
 - Interactive Antarctic live-view map treatment with stations, routes, transport, cargo, and personnel markers
 - Mission performance charts using Recharts
 - Consistent cards, status badges, alerts, timelines, tables, and operational panels
-- Landing page for the POLAR-X product
+- Landing page for the VYNTARA product
 - Secure-looking login experience for expedition administrators
 
 ### Current Routes
 
 | Route | Purpose |
 | --- | --- |
-| `/` | POLAR-X landing page |
+| `/` | VYNTARA landing page |
 | `/login` | Expedition command login screen |
 | `/dashboard` | Mission overview and command center |
 | `/mission-map` | Live mission map and Bharati Station details |
@@ -82,7 +84,7 @@ The production output is generated in the `dist` directory.
 ```text
 src/
   App.tsx       Main routes, shared components, mock data, and page views
-  App.css       POLAR-X design system and responsive page styling
+  App.css       VYNTARA design system and responsive page styling
   index.css     Global browser and typography reset
   main.tsx      React application entry point
 ```
@@ -134,4 +136,4 @@ The current prototype keeps the main experience in `App.tsx` to make the demonst
 
 ## Current Status
 
-POLAR-X is a functional frontend prototype with a complete visual system, multiple operational routes, responsive behavior, charts, mock map views, and interactive controls. The next major milestone is separating the data model from the UI and connecting the command center to a real backend and AI service.
+VYNTARA is a functional frontend prototype with a complete visual system, multiple operational routes, responsive behavior, charts, mock map views, and interactive controls. The next major milestone is separating the data model from the UI and connecting the command center to a real backend and AI service.
